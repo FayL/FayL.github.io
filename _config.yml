@@ -73,7 +73,7 @@ kramdown:
 sidebar: true                           # whether or not using Sidebar.
 
 sidebar-about-description: "keep walking."
-sidebar-avatar: /img/tumblr_o25flfPMa41u60tx6o1_1280.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/tumblr_nv26uvCqoM1u60tx6o1_1280.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
