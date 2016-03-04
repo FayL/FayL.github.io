@@ -1,31 +1,39 @@
 # Site settings
-title: Fay Blog
-SEOTitle: Fay的博客 | Fay Blog
+title: 一饭一书
+SEOTitle: 一饭一书 | Food and Book
 header-img: img/home-bg.jpg
-email: fay@gmail.com
-description: "Fay is beautiful"
-keyword: ""
-url: "FayL.github.io"              # your host, for absolute URL
+email: fayl1686@gmail.com
+description: "这里是 @FayL 的个人博客，世界之大，不过一饭一书。"
+keyword: "一饭一书, 博客, 个人网站, 互联网, 设计, 产品, 品牌"
+url: "fayl.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     让我为你唱首好听的歌
-zhihu_username:     huxpro
+#weibo_username:     huxpro
+#zhihu_username:     huxpro
 github_username:    FayL
 #twitter_username:  huxpro
-facebook_username:  fay
+#facebook_username:  huxpro
+
 
 
 
 # Build settings
-highlighter: pygments
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
 
 
 
@@ -50,6 +58,7 @@ kramdown:
 
 
 
+
 # Analytics settings
 # Baidu Analytics
 # ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
@@ -59,9 +68,11 @@ kramdown:
 
 
 
+
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Very good very strong"
+
+sidebar-about-description: "keep walking."
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -73,21 +84,9 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 # Friends
-# friends: [
-#     {
-#         title: "Hux Blog",
-#         href: "http://huangxuan.me"
-#     },{
-#         title: "Foo",
-#         href: "#"
-#     },{
-#         title: "Bar",
-#         href: "#"
-#     },{
-#         title: "Example Friends",
-#         href: "#"
-#     },{
-#         title: "It helps SEO",
-#         href: "#"
-#     }
+
+#friends: [
+    
 # ]
+
+
